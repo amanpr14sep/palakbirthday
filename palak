@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>For Palak — A Little Corner of the Internet</title>
+  <meta name="description" content="A little corner of the internet for a girl full of plot twists.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#30241F">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#ch1">Skip to content</a>
+  <svg class="grain-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="paperGrain" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.15  0 0 0 0 0.1  0 0 0 0.55 0"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <!-- ============ FIXED UI ============ -->
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#ch1" aria-label="Back to the opening"><span class="mono">P. — 2026</span></a>
+    <nav aria-label="Chapters">
+      <ul>
+        <li><a href="#ch2"><span class="mono">02</span> Her</a></li>
+        <li><a href="#ch3"><span class="mono">03</span> Frames</a></li>
+        <li><a href="#ch4"><span class="mono">04</span> Film</a></li>
+        <li><a href="#ch5"><span class="mono">05</span> Eras</a></li>
+        <li><a href="#ch6"><span class="mono">06</span> Letter</a></li>
+      </ul>
+    </nav>
+    <button class="sound" id="soundToggle" type="button" aria-pressed="false" aria-label="Turn background music on">
+      <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="sound-label mono" id="soundLabel">Sound off</span>
+    </button>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ CHAPTER 01 — OPENING ============ -->
+    <section class="ch ch1 dark" id="ch1" aria-labelledby="h1">
+      <div class="light-leak" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <p class="label mono hero-label hero-label--tl">Chapter 01 <span>/</span> The Opening</p>
+      <p class="label mono hero-label hero-label--tr">For P.</p>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="label mono reveal-line" style="--d:.1s">A birthday, in seven short chapters</p>
+          <h1 id="h1" class="display">
+            <span class="line"><span class="line-inner" style="--d:.25s">A little corner</span></span>
+            <span class="line"><span class="line-inner" style="--d:.4s">of the internet</span></span>
+            <span class="line"><span class="line-inner" style="--d:.55s">for a girl full of</span></span>
+            <span class="line"><span class="line-inner" style="--d:.7s"><em>plot twists.</em></span></span>
+          </h1>
+          <p class="hero-sub reveal-line" style="--d:.95s">Happy Birthday, Palak <span class="heart" aria-hidden="true">♡</span></p>
+          <p class="hand hero-hand" style="--d:1.3s">a little something for you —<br>scroll to begin ↓</p>
+        </div>
+
+        <figure class="hero-photo" data-parallax="0.06">
+          <div class="polaroid polaroid--hero" style="--r:-3.5deg">
+            <span class="tape tape--t" aria-hidden="true"></span>
+            <div class="ph" style="--ar:4/5">
+              <img src="assets/photos/hero.jpg" alt="A candid photograph of Palak" width="800" height="1000" data-asset="hero.jpg" fetchpriority="high">
+              <span class="ph-note mono">assets/photos/hero.jpg</span>
+            </div>
+            <figcaption class="hand">noticed.</figcaption>
+          </div>
+        </figure>
+      </div>
+
+      <a class="scroll-cue" href="#ch2" aria-label="Scroll to chapter two">
+        <span class="mono">Scroll</span>
+        <span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ============ CHAPTER 02 — HUNDRED CHAPTERS ============ -->
+    <section class="ch ch2 paper" id="ch2" aria-labelledby="h2">
+      <div class="paper-tear paper-tear--top" aria-hidden="true"></div>
+
+      <div class="wrap two-col">
+        <div class="col-photo reveal">
+          <p class="label mono">Chapter 02 <span>/</span> The girl</p>
+          <div class="polaroid polaroid--paper" style="--r:2.5deg" data-parallax="0.04">
+            <span class="tape tape--t" aria-hidden="true"></span>
+            <span class="tape tape--b" aria-hidden="true"></span>
+            <div class="ph" style="--ar:1/1">
+              <img src="assets/photos/photo-01.jpg" alt="Palak, caught mid-moment" width="800" height="800" loading="lazy" data-asset="photo-01.jpg">
+              <span class="ph-note mono">assets/photos/photo-01.jpg</span>
+            </div>
+            <p class="hand cap">the plot thickens</p>
+          </div>
+          <svg class="doodle doodle--arrow" viewBox="0 0 120 80" aria-hidden="true"><path d="M6 12 C 40 4, 86 20, 96 58" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M84 52 L97 62 L99 45" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+
+        <div class="col-text">
+          <h2 id="h2" class="headline"><span class="split">The girl with a</span> <span class="split"><em>hundred chapters.</em></span></h2>
+          <div class="note-card reveal">
+            <p>A little mysterious, a little dramatic, and kinder than you probably let on.</p>
+            <p>You have this way of making ordinary conversations a little more interesting. And honestly, that combination is pretty hard not to notice.</p>
+            <p class="hand margin-note">Honestly, Palak… you are a little hard to figure out. In a good way. ♡</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="strip" aria-label="A few words">
+        <div class="strip-track">
+          <ul class="strip-list">
+            <li>Main-character energy</li><li class="dot" aria-hidden="true">✦</li>
+            <li>Soft heart</li><li class="dot" aria-hidden="true">✦</li>
+            <li>A little mystery</li><li class="dot" aria-hidden="true">✦</li>
+            <li>Plot twists included</li><li class="dot" aria-hidden="true">✦</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER 03 — GALLERY ============ -->
+    <section class="ch ch3 dark" id="ch3" aria-labelledby="h3">
+      <div class="grain" aria-hidden="true"></div>
+      <div class="wrap">
+        <header class="ch-head reveal">
+          <p class="label mono">Chapter 03 <span>/</span> Frames</p>
+          <h2 id="h3" class="headline">Just a few frames from your <em>beautiful chaos.</em></h2>
+          <p class="sub">No posing required. Just little glimpses of you.</p>
+        </header>
+
+        <!--
+          GALLERY: edit captions here. To drop a photo, delete its <li>.
+          To change a caption, edit the text inside <figcaption>. To remove one, empty it.
+        -->
+        <ul class="collage" id="collage">
+          <li class="c c--anchor" style="--r:-2deg">
+            <button class="polaroid" type="button" data-lightbox data-full="assets/photos/photo-01.jpg" aria-label="Open photograph 1 larger">
+              <span class="tape tape--t" aria-hidden="true"></span>
+              <span class="ph" style="--ar:4/5">
+                <img src="assets/photos/photo-01.jpg" alt="Palak, laughing at something just out of frame" width="800" height="1000" loading="lazy" data-asset="photo-01.jpg">
+                <span class="ph-note mono">photo-01.jpg</span>
+              </span>
+              <span class="hand cap">That expression. Again. ♡</span>
+            </button>
+          </li>
+          <li class="c c--b" style="--r:3deg">
+            <button class="polaroid" type="button" data-lightbox data-full="assets/photos/photo-02.jpg" aria-label="Open photograph 2 larger">
+              <span class="tape tape--l" aria-hidden="true"></span>
+              <span class="ph" style="--ar:1/1">
+                <img src="assets/photos/photo-02.jpg" alt="A candid portrait of Palak" width="800" height="800" loading="lazy" data-asset="photo-02.jpg">
+                <span class="ph-note mono">photo-02.jpg</span>
+              </span>
+              <span class="hand cap">Candid looks good on you.</span>
+            </button>
+          </li>
+          <li class="c c--c" style="--r:-4deg">
+            <button class="polaroid" type="button" data-lightbox data-full="assets/photos/photo-03.jpg" aria-label="Open photograph 3 larger">
+              <span class="tape tape--t" aria-hidden="true"></span>
+              <span class="ph" style="--ar:4/5">
+                <img src="assets/photos/photo-03.jpg" alt="Palak, in a quiet moment" width="800" height="1000" loading="lazy" data-asset="photo-03.jpg">
+                <span class="ph-note mono">photo-03.jpg</span>
+              </span>
+              <span class="hand cap">A little moment, perfectly you.</span>
+            </button>
+          </li>
+          <li class="c c--d" style="--r:2deg">
+            <button class="polaroid" type="button" data-lightbox data-full="assets/photos/photo-04.jpg" aria-label="Open photograph 4 larger">
+              <span class="tape tape--r" aria-hidden="true"></span>
+              <span class="ph" style="--ar:5/4">
+                <img src="assets/photos/photo-04.jpg" alt="Palak, a wider candid frame" width="1000" height="800" loading="lazy" data-asset="photo-04.jpg">
+                <span class="ph-note mono">photo-04.jpg</span>
+              </span>
+              <span class="hand cap">Main-character behaviour.</span>
+            </button>
+          </li>
+          <li class="c c--e" style="--r:-2.5deg">
+            <button class="polaroid" type="button" data-lightbox data-full="assets/photos/photo-05.jpg" aria-label="Open photograph 5 larger">
+              <span class="tape tape--t" aria-hidden="true"></span>
+              <span class="ph" style="--ar:1/1">
+                <img src="assets/photos/photo-05.jpg" alt="Palak, mid-expression" width="800" height="800" loading="lazy" data-asset="photo-05.jpg">
+                <span class="ph-note mono">photo-05.jpg</span>
+              </span>
+              <span class="hand cap"></span>
+            </button>
+          </li>
+          <li class="c c--aside" aria-hidden="true">
+            <p class="hand">no posing<br>required.</p>
+            <svg viewBox="0 0 120 60" class="doodle"><path d="M4 40 C 30 6, 70 6, 112 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M100 28 L113 37 L98 44" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER 04 — FILM ROOM ============ -->
+    <section class="ch ch4 dark darker" id="ch4" aria-labelledby="h4">
+      <div class="light-leak light-leak--b" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="wrap">
+        <header class="ch-head reveal">
+          <p class="label mono">Chapter 04 <span>/</span> The little film room</p>
+          <h2 id="h4" class="headline">Some things are <em>better in motion.</em></h2>
+          <p class="sub">For the little expressions, the unexpected reactions, and the moments a photograph cannot quite hold.</p>
+        </header>
+
+        <!--
+          VIDEOS: to add more clips, add entries to the VIDEOS array at the top of script.js.
+          Thumbnails appear automatically when there are two or more. Default: assets/videos/palak-film.mp4
+        -->
+        <div class="film reveal">
+          <div class="film-frame" id="filmFrame">
+            <video id="filmVideo" playsinline preload="none" controls poster="assets/photos/video-poster.jpg" aria-label="A short candid film">
+              <source src="assets/videos/palak-film.mp4" type="video/mp4">
+              Your browser can't play this video, but you can download it from the assets folder.
+            </video>
+            <div class="film-empty" id="filmEmpty" hidden>
+              <p class="mono">Reel empty</p>
+              <p>Add your clip at <code>assets/videos/palak-film.mp4</code></p>
+            </div>
+            <button class="play" id="playBtn" type="button" aria-label="Play the film">
+              <span class="play-ring" aria-hidden="true"></span>
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
+              <span class="play-text mono">Press play</span>
+            </button>
+            <span class="rec mono" aria-hidden="true"><i></i> Reel 01</span>
+          </div>
+
+          <div class="filmstrip" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+          <div class="reels" id="reels" role="group" aria-label="Choose a clip">
+            <button class="reel is-active" type="button" data-index="0" aria-pressed="true">
+              <span class="reel-thumb"><img src="assets/photos/video-poster.jpg" alt="" width="320" height="180" loading="lazy" data-asset="video-poster.jpg"></span>
+              <span class="mono">Reel 01</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER 05 — ERAS ============ -->
+    <section class="ch ch5 paper" id="ch5" aria-labelledby="h5">
+      <div class="paper-tear paper-tear--top" aria-hidden="true"></div>
+      <div class="wrap">
+        <header class="ch-head reveal">
+          <p class="label mono">Chapter 05 <span>/</span> Her current eras</p>
+          <h2 id="h5" class="headline">Books, makeup, <em>and a little mystery.</em></h2>
+        </header>
+
+        <div class="eras">
+          <!-- A — BOOK -->
+          <article class="era era--book reveal" data-tilt>
+            <span class="era-no mono">A</span>
+            <div class="book-spread" aria-hidden="true">
+              <div class="page page--l"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="page page--r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="bookmark"></span>
+            </div>
+            <!-- BOOK COVER (optional): only add this if you know a book she loves.
+                 1) Save the cover as assets/photos/book-cover.jpg
+                 2) Uncomment the <img> line below. The placeholder disappears automatically. -->
+            <div class="book-cover is-missing">
+              <!-- <img src="assets/photos/book-cover.jpg" alt="Cover of a book she loves" width="300" height="440" loading="lazy" data-asset="book-cover.jpg"> -->
+              <span class="cover-ph mono" aria-hidden="true">Her book<br>goes here</span>
+            </div>
+            <h3>The book girl</h3>
+            <p class="era-copy">One more chapter?<br>One more world to get lost in.</p>
+            <p class="hand era-note">(bookmark optional, but encouraged)</p>
+          </article>
+
+          <!-- B — MAKEUP -->
+          <article class="era era--makeup reveal" data-tilt>
+            <span class="era-no mono">B</span>
+            <div class="flatlay" aria-hidden="true">
+              <svg viewBox="0 0 320 240" role="presentation">
+                <path class="stroke s1" d="M18 190 C 80 120, 150 210, 300 70"/>
+                <path class="stroke s2" d="M30 218 C 110 170, 190 230, 296 140"/>
+                <g class="lipstick" transform="rotate(-24 90 120)">
+                  <rect x="70" y="120" width="40" height="64" rx="3" fill="#25231F"/>
+                  <rect x="74" y="100" width="32" height="26" rx="2" fill="#B28A66"/>
+                  <path d="M76 100 q14 -26 28 0z" fill="#79484B"/>
+                </g>
+                <g class="brush" transform="rotate(32 220 120)">
+                  <rect x="214" y="40" width="9" height="120" rx="4" fill="#C5A58B"/>
+                  <rect x="212" y="144" width="13" height="22" rx="2" fill="#928779"/>
+                  <path d="M211 40 q6 -34 13 0z" fill="#DDA8A5"/>
+                </g>
+                <g class="compact">
+                  <circle cx="170" cy="168" r="38" fill="#E8DCC8" stroke="#928779" stroke-width="1.5"/>
+                  <circle cx="170" cy="168" r="26" fill="#DDA8A5"/>
+                  <circle cx="170" cy="168" r="26" fill="none" stroke="#F7F0E5" stroke-opacity=".5" stroke-width="1"/>
+                </g>
+              </svg>
+            </div>
+            <h3>The makeup era</h3>
+            <p class="era-copy">New skills. New looks.<br>The experimentation era begins.</p>
+            <p class="hand era-note">I expect an honest review of this era. ;)</p>
+          </article>
+
+          <!-- C — MYSTERY -->
+          <article class="era era--mystery reveal" data-tilt>
+            <span class="era-no mono">C</span>
+            <div class="ph mystery-ph" style="--ar:4/3">
+              <img src="assets/photos/photo-03.jpg" alt="A small, candid photograph of Palak" width="640" height="480" loading="lazy" data-asset="photo-03.jpg">
+              <span class="ph-note mono">photo-03.jpg</span>
+            </div>
+            <span class="moon" aria-hidden="true"></span>
+            <h3>The mystery</h3>
+            <p class="era-copy">Still figuring you out.<br>And that is part of the fun.</p>
+            <p class="hand era-note">(to be continued…)</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER 06 — LETTER ============ -->
+    <section class="ch ch6 paper paper--deep" id="ch6" aria-labelledby="h6">
+      <div class="wrap wrap--narrow">
+        <p class="label mono reveal">Chapter 06 <span>/</span> The birthday letter</p>
+        <h2 id="h6" class="sr-only">A birthday letter</h2>
+
+        <!-- LETTER: edit the text freely. Each <p> reveals as you scroll. -->
+        <article class="letter" id="letter">
+          <span class="tab mono" aria-hidden="true">read me</span>
+          <svg class="flower flower--a" viewBox="0 0 120 160" aria-hidden="true">
+            <g fill="none" stroke="#77745B" stroke-width="1.4" stroke-linecap="round"><path d="M60 156 C 58 110, 64 80, 60 46"/><path d="M60 112 C 40 104, 30 90, 28 74 C 46 78, 58 92, 60 112z" fill="#77745B" fill-opacity=".25"/><path d="M61 90 C 80 84, 92 70, 94 54 C 76 58, 64 72, 61 90z" fill="#77745B" fill-opacity=".25"/></g>
+            <g fill="#DDA8A5" fill-opacity=".75" stroke="#79484B" stroke-width="1"><ellipse cx="60" cy="28" rx="9" ry="16"/><ellipse cx="60" cy="28" rx="9" ry="16" transform="rotate(72 60 40)"/><ellipse cx="60" cy="28" rx="9" ry="16" transform="rotate(144 60 40)"/><ellipse cx="60" cy="28" rx="9" ry="16" transform="rotate(216 60 40)"/><ellipse cx="60" cy="28" rx="9" ry="16" transform="rotate(288 60 40)"/></g>
+            <circle cx="60" cy="40" r="5" fill="#B28A66"/>
+          </svg>
+          <svg class="flower flower--b" viewBox="0 0 90 120" aria-hidden="true">
+            <g fill="none" stroke="#77745B" stroke-width="1.3" stroke-linecap="round"><path d="M45 116 C 44 86, 48 60, 45 34"/><path d="M45 84 C 30 78, 22 66, 20 54 C 34 58, 44 68, 45 84z" fill="#77745B" fill-opacity=".22"/></g>
+            <g fill="#E8DCC8" stroke="#928779" stroke-width="1"><circle cx="45" cy="24" r="10"/><circle cx="33" cy="30" r="9"/><circle cx="57" cy="30" r="9"/><circle cx="37" cy="17" r="8"/><circle cx="53" cy="17" r="8"/></g>
+            <circle cx="45" cy="24" r="4" fill="#B28A66"/>
+          </svg>
+
+          <div class="letter-body">
+            <p class="hand letter-open lr">Hey Palak,</p>
+            <p class="lr">Birthdays are a pretty good excuse to say something nice, so I’m taking mine.</p>
+            <p class="lr">I hope this year brings you stories you can disappear into, pages you can’t put down, and the confidence to try every new thing that suddenly has your attention — yes, including this new makeup era. I’m curious to see the reviews. :)</p>
+            <p class="lr">I hope you keep that caring heart, that slightly dramatic flair, and the mysterious little side that makes you hard to figure out in the best way.</p>
+            <p class="lr">And I’ll admit this much: you’ve crossed my mind more than once. I’ll leave the rest to your imagination. Consider it a birthday-sized hint.</p>
+            <p class="lr letter-close">Happy birthday, Palak. <span aria-hidden="true">♡</span></p>
+            <p class="hand letter-sign lr">Keep being wonderfully, unmistakably you.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER 07 — FINALE ============ -->
+    <section class="ch ch7 dark" id="ch7" aria-labelledby="h7">
+      <div class="light-leak light-leak--amber" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+      <span class="ember ember--1" aria-hidden="true"></span>
+      <span class="ember ember--2" aria-hidden="true"></span>
+      <span class="ember ember--3" aria-hidden="true"></span>
+      <span class="ember ember--4" aria-hidden="true"></span>
+      <span class="ember ember--5" aria-hidden="true"></span>
+
+      <div class="wrap finale">
+        <p class="label mono reveal">Chapter 07 <span>/</span> The last frame</p>
+
+        <div class="finale-grid">
+          <div class="finale-copy">
+            <h2 id="h7" class="display display--xl reveal">Happy<br>Birthday,<br><em>Palak.</em></h2>
+            <p class="finale-sub reveal">Here’s to your next plot twist.</p>
+            <p class="finale-body reveal">More books worth getting lost in.<br>More new things to fall in love with.<br>More reasons to laugh, glow, grow, and surprise everyone — including yourself.</p>
+            <p class="hand finale-ps reveal">P.S. I have a feeling this year is going to suit you. ♡</p>
+          </div>
+
+          <figure class="finale-photo reveal" data-parallax="0.05">
+            <div class="polaroid polaroid--dark" style="--r:3deg">
+              <span class="tape tape--t" aria-hidden="true"></span>
+              <div class="ph" style="--ar:4/5">
+                <img src="assets/photos/photo-05.jpg" alt="A final candid frame of Palak" width="800" height="1000" loading="lazy" data-asset="photo-05.jpg">
+                <span class="ph-note mono">photo-05.jpg</span>
+              </div>
+              <figcaption class="hand">fin.</figcaption>
+            </div>
+            <div class="seal" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <defs><path id="sealCircle" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+                <circle cx="60" cy="60" r="56" fill="#79484B"/>
+                <circle cx="60" cy="60" r="50" fill="none" stroke="#F7F0E5" stroke-opacity=".5" stroke-width=".8"/>
+                <text font-family="DM Mono, monospace" font-size="8.5" fill="#F7F0E5"><textPath href="#sealCircle" textLength="268" lengthAdjust="spacing">PLOT TWISTS INCLUDED · EST. 2026 ·</textPath></text>
+                <text x="60" y="70" text-anchor="middle" font-family="Cormorant Garamond, serif" font-style="italic" font-size="34" fill="#F7F0E5">P.</text>
+              </svg>
+            </div>
+          </figure>
+        </div>
+
+        <div class="finale-end reveal">
+          <button class="again" id="againBtn" type="button"><span>Start again</span><span aria-hidden="true">↑</span></button>
+          <p class="mono credit">Made with attention to detail.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photograph viewer" hidden>
+    <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close viewer"><span aria-hidden="true">✕</span></button>
+    <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous photograph"><span aria-hidden="true">←</span></button>
+    <figure class="lb-fig">
+      <div class="lb-img-wrap">
+        <img id="lbImg" alt="" decoding="async">
+        <p class="lb-missing mono" id="lbMissing" hidden>Photo not added yet</p>
+      </div>
+      <figcaption id="lbCap" class="hand"></figcaption>
+      <p class="lb-count mono" id="lbCount" aria-live="polite"></p>
+    </figure>
+    <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next photograph"><span aria-hidden="true">→</span></button>
+  </div>
+
+  <!-- Optional music. Add your own file at assets/music/your-song.mp3 -->
+  <audio id="bgm" loop preload="none">
+    <source src="assets/music/your-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <p class="toast mono" id="toast" role="status" aria-live="polite" hidden></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
